@@ -4,7 +4,6 @@
 1. 저장소 브랜치에 자신의 github 아이디에 해당하는 브랜치가 있는지 확인한다. 브랜치가 없는 경우 마스터에게 브랜치 생성을 요청한다.
 ![codereview 1_1](codereview_1_1.png)
 
-----
 ![codereview 1_2](codereview_1_2.png)
 
 ----
@@ -23,7 +22,6 @@ cd {저장소 아이디}
 ex) cd java-racingcar
 ```
 
-----
 ![codereview 3](codereview_3.png)
 
 ----
@@ -33,7 +31,6 @@ git checkout -b 브랜치이름
 ex) git checkout -b step1
 ```
 
-----
 ![codereview 4](codereview_4.png)
 
 ----
@@ -45,7 +42,6 @@ git add 파일명(or * 모두) // ex) git add . (변화가 있는 모든 파일 
 git commit -m "메시지" // 커밋
 ```
 
-----
 ![codereview 5](codereview_5.png)
 
 ----
@@ -55,7 +51,6 @@ git push origin 브랜치이름
 ex) git push origin step1
 ```
 
-----
 ![codereview 6](codereview_6.png)
 
 ----
@@ -66,7 +61,6 @@ ex) git push origin step1
 ex) code-squad/java-racingcar javajigi 브랜치 기준 => javajigi/java-racingcar step1
 ```
 
-----
 ![codereview 7](codereview_7.png)
 
 ----
@@ -83,7 +77,6 @@ ex) git checkout javajigi
 ex) git branch -D step1
 ```
 
-----
 ![codereview 9](codereview_9.png)
 
 ----
@@ -102,7 +95,6 @@ git fetch upstream {본인_아이디}
 ex) git fetch upstream javajigi
 ```
 
-----
 ![codereview 10_11](codereview_10_11.png)
 
 ----
@@ -112,13 +104,11 @@ git rebase upstream/본인_아이디
 ex) git rebase upstream/javajigi
 ```
 
-----
 ![codereview 12](codereview_12.png)
 
 ----
 13. 4단계부터 다시 진행
 
-----
 ![codereview 13](codereview_13.png)
 
 ----
