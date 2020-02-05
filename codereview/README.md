@@ -80,10 +80,10 @@ ex) git branch -D step1
 ![codereview 9](codereview_9.png)
 
 ----
-10. merge한 codesquad 저장소와 동기화하기 위해 codesquad 저장소 추가(최초 한번만)
+10. merge한 codesquad 저장소와 동기화하기 위해 codesquad 저장소의 자기 브랜치 추가(최초 한번만)
 ```
-git remote add {저장소_별칭} base_저장소_url
-ex) git remote add upstream https://github.com/code-squad/java-racingcar.git
+git remote add -t {본인_아이디} {저장소_별칭} base_저장소_url
+ex) git remote add -t javajigi upstream https://github.com/code-squad/java-racingcar.git
 // 위와 같이 codesquad 저장소를 추가한 후 전체 remote 저장소 목록을 본다.
 git remote -v
 ```
