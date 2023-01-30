@@ -49,9 +49,10 @@ $ git switch -c feature1
 
 ```bash
 $ git status #확인
-$ git rm 파일명 #삭제된 파일
-$ git add 파일명 # (or * 모두)  #ex) git add . (변화가 있는 모든 파일 반영은 .(dot)을 사용
-$ git commit -m "메시지" // 커밋
+$ git rm {파일명} #삭제된 파일
+$ git add {파일명} #추가하거나 변경한 파일
+# ex) git add . (변화가 있는 모든 파일 반영은 .(dot)을 사용)
+$ git commit -m "커밋 설명 메시지" // 커밋남기기
 ```
 
 ![codereview sequence #5](../Sequence/CodeReviewSequence_05.png)
