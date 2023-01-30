@@ -86,7 +86,7 @@ ex) code-squad/project yoda 브랜치를 base로 <= yoda/project feature1 브랜
 > 자동 머지가 되는 기준과 방법을 찾는 것도 중요하지만, 
 > 실패한 원인을 이해하고 해결 방법을 경험하는 것도 중요하다.
 
-![codereview sequence #7](../Sequence/CodeReviewSequence_08.png)
+![codereview sequence #8](../Sequence/CodeReviewSequence_08.png)
 
 9. merge를 완료했다는 통보를 받으면 head 브랜치를 변경하고 작업 브랜치를 삭제한다
 
@@ -108,7 +108,7 @@ $ git branch -D feature1
 ```bash
 # git remote add -t {아이디_브랜치_이름} {저장소_별칭} base_저장소_url
 $ git remote add -t yoda upstream https://github.com/code-squad/project.git
-// 위와 같이 codesquad 저장소를 추가한 후 전체 remote 저장소 목록을 본다.
+# 위와 같이 codesquad 저장소를 추가한 후 전체 remote 저장소 목록을 확인한다
 $ git remote -v
 ```
 
