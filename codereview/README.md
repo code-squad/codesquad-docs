@@ -91,10 +91,10 @@ ex) code-squad/project yoda 브랜치를 base로 <= yoda/project feature1 브랜
 9. merge를 완료했다는 통보를 받으면 head 브랜치를 변경하고 작업 브랜치를 삭제한다
 
 ```bash
-# git switch 본인_아이디
-$ git checkout javajigi
-# git branch -D 삭제할_브랜치이름
-$ git branch -D step1
+# git switch {아이디_브랜치_이름}
+$ git switch yoda
+# git branch -D {삭제할_브랜치_이름}
+$ git branch -D feature1
 ```
 
 ![codereview sequence #9](../Sequence/CodeReviewSequence_09.png)
@@ -108,7 +108,7 @@ $ git branch -D step1
 ```bash
 # git remote add -t {아이디_브랜치_이름} {저장소_별칭} base_저장소_url
 $ git remote add -t yoda upstream https://github.com/code-squad/project.git
-// 위와 같이 codesquad 저장소를 추가한 후 전체 remote 저장소 목록을 본다.
+# 위와 같이 codesquad 저장소를 추가한 후 전체 remote 저장소 목록을 확인한다
 $ git remote -v
 ```
 
