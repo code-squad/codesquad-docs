@@ -14,9 +14,9 @@
 
 2. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 활용한다.
 
-![codereview sequence #2](../Sequence/CodeReviewSequence_02.png)
-
 단, fork할 때 `main branch only` 옵션을 적용하면 1번에서 생성한 `{본인_아이디}` 브랜치가 함께 fork되지 않고 main 브랜치만 fork된다.
+
+![codereview sequence #2](../Sequence/CodeReviewSequence_02.png)
 
 
 ## 𝔹. 저장소 클론
