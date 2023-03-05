@@ -16,19 +16,24 @@
 
 ![codereview sequence #2](../Sequence/CodeReviewSequence_02.png)
 
+단, fork할 때 `main branch only` 옵션을 적용하면 1번에서 생성한 `{본인_아이디}` 브랜치가 함께 fork되지 않고 main 브랜치만 fork된다.
+
 
 ## 𝔹. 저장소 클론
 
-3. fork한 프로젝트를 자신의 컴퓨터로 clone한 후 디렉토리로 이동한다.
+3. fork한 프로젝트를 자신의 컴퓨터로 clone한 후, 디렉토리로 이동하고 본인_아이디에 해당하는 브랜치를 생성한다.
 
 ```bash
-# git clone -b {아이디_브랜치_이름} --single-branch https://github.com/{본인_아이디}/{저장소 아이디}
-$ git clone -b yoda --single-branch https://github.com/yoda/project
+# git clone https://github.com/{본인_아이디}/{저장소 아이디}
+$ git clone https://github.com/yoda/project
 ```
 
 ```bash
 # cd {저장소_아이디}
 $ cd project
+
+# git switch -c {본인_아이디}
+$ git switch -c yoda
 ```
 
 ![codereview sequence #3](../Sequence/CodeReviewSequence_03.png)
